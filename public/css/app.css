@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    height: 100vh;
+    border: 1px solid red;
+}
+
+.box>input {
+    width: 80%;
+}
+
+.box {
+    padding: 20px;
+    position: fixed;
+    height: fit-content;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+    min-width: 200px;
+    margin: auto;
+    box-shadow: 3px 3px 6px 5px grey;
+    transition: .2s;
+}
+
+
+.box:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 3px 3px 6px 5px grey;
+}
